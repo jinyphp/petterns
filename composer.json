@@ -1,5 +1,5 @@
 {
-    "name": "jiny/patterns",
+    "name": "jiny/petterns",
     "description": "jinyPHP GOF petterns",
     "keywords": [
         "jinyPHP",
@@ -12,7 +12,7 @@
         {
             "name": "hojinlee",
             "email": "infohojin@gmail.com",
-            "homepage": "http://www.jinyphp.com"
+            "homepage": "http://jiny.dev"
         }
     ],
     "minimum-stability": "stable",
@@ -25,7 +25,9 @@
             "Jiny\\Petterns\\": "src/"
         },
         "files": [
-            "src/Helpers/Helper.php"
+            "src/Helpers/Helper.php",
+            "src/Helpers/Jiny.php",
+            "src/Helpers/Petterns.php"
         ]        
    
     }
